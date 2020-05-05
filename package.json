@@ -1,0 +1,14 @@
+{
+  "name": "gula",
+  "version": "1.0.0",
+  "description": "Convert  xlsx to needed form",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.15.6"
+  }
+}

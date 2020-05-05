@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		span {
+			margin: 0.4em
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h4>Emport excel data</h4>
+		<form class="form-horizontal">
+			<input id="inputFile" type="file">
+		</form>
+
+		<div id="workbookContainer">
+		</div>
+	</div>
+	<!-- add the shim first -->
+
+	<script type="text/javascript" src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+	<script src="index.js" />
+	</body>
+
+</html>
