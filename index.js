@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", main);
+document.addEventListener("load", main);
 
 
 function NumToCol(num) {
