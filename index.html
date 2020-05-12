@@ -164,7 +164,7 @@ function toHTML(data) {
 function onFileEnter(e) {
 	var inputFile = e.target.files[0];
 	var fileReader = new FileReader();
-
+console.log('changed');
 	fileReader.onload = function (e) {
 		var data = e.target.result;
 		var workbook = XLSX.read(data, {
@@ -183,7 +183,9 @@ function main() {
 	inputFile.addEventListener('change', onFileEnter);
 }
 		console.log('loaded');
-		document.addEventListener("load", main);
+			const inputFile = document.querySelector('#inputFile');
+	console.log('change add');
+	inputFile.addEventListener('change', onFileEnter);
 		console.log('al');
 	</script>
 	</body>
